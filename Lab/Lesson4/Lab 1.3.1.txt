@@ -1,0 +1,29 @@
+
+<title>Odessa</title>
+
+ <img src="img/Odessa.jpg" alt="Odessa" title="Odessa"/>
+
+<h1>Odessa</h1>
+
+<p><b>Odessa</b>is the third largest city in Ukraine located in the south of the country, 
+the administrative center of the Odessa region and the main naval base of the Ukrainian Navy.
+This city, standing on the shore of the Odessa Gulf of the <b>Black Sea</b>, 
+is the largest commercial sea port of Ukraine. The <b>population</b>of Odessa is about 1,010,000 (2016), the area - 237 sq. km.Odessa is one of the most colorful cities in Ukraine, it is rightly considered 
+the pearl of the Black Sea. It is a city of an interesting century-old history, 
+architecture, culture. It is a city of humor, a wonderful and unique city. 
+There always joked, there never faltered in him. Here lives a trustful,
+ cheerful, hospitable people. Odessa attracts tourists with a warm sea breeze, 
+ sunny beaches, picturesque coastal areas, as well as therapeutic mud from a salty estuary.  
+ In Odessa locatedis one of the most beautiful in the world of <b>Opera theater</b>, 
+ the city have a diversity of museums and galleries and charming architecture. 
+ Tourists will be able to immerse themselves in the unforgettable atmosphere of 
+many musical, dance, literary and other events taking place in the city.</p>
+
+<iframe src="https://en.wikipedia.org/wiki/Odessa" width= "100%" height="400"> </iframe>
+
+<ul> 
+<li>London </li>
+<li>Paris</li> 
+<li>Talin</li>
+</ul>
+
