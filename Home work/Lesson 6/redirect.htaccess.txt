@@ -1,0 +1,2 @@
+Redirect 301 /fedd http://www.bricks-mix.com/uslugi
+Redirect 301 /onas http://www.bricks-mix.com/o-nas

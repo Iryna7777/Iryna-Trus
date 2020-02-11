@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF=8">
+<urlset xmlns="http://www.sitemaps.org/shemas/sitemap/0.9"/>
+<url>
+	<loc>https://bricks.com/</loc>
+	<lastmod>2020-02-OST16:12:20+03:00</lastmod>
+	<chanfreq>always</chanfreq>
+	<priority>0.9</priority>
+	</url>
+	<url>
+	<loc>https://bricks.com/О нас</loc>
+	<lastmod>2020-02-OST16:12:20+03:00</lastmod>
+	<chanfreq>always</chanfreq>
+	<priority>0.8</priority>
+	</url>
+	<url>
+	<loc>https://bricks.com/Наша продукция</loc>
+	<lastmod>2020-02-OST16:12:20+03:00</lastmod>
+	<chanfreq>always</chanfreq>
+	<priority>0.7</priority>
+	</url>
+	<url>
+	<loc>https://bricks.com/Партнерские программы</loc>
+	<lastmod>2020-02-OST16:12:20+03:00</lastmod>
+	<chanfreq>always</chanfreq>
+	<priority>0.6</priority>
+	</url>
+	<url>
+	<loc>https://bricks.com/Контакты</loc>
+	<lastmod>2020-02-OST16:12:20+03:00</lastmod>
+	<chanfreq>always</chanfreq>
+	<priority>0.5</priority>
+	</url>
+	<url>
+	<loc>https://bricks.com/Контакты</loc>
+	<image:image>
+	<image:loc>https://bricks.com/design/logo-dark.svg</image:loc>
+	</image:image>
+	</url>
+</urlset>

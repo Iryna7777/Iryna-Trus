@@ -1,0 +1,8 @@
+User-agent:*
+Disallow:
+
+Allow:/feed/
+Allow:/catalog/
+Disallow:/autor
+Host:"https://bricks.com"
+Sitemap: http://bricks.com/sitemap.xml
