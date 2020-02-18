@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="font/stylesheet.css"/>
+ </head>
+ <style>
+ *{
+ padding:0;
+ margin:0;
+ }
+ body{
+ color:#800080;
+ font-size:52px;
+ font-family:'open_sanregular;
+ }
+ .main h1{
+ font-family: 'open_sanslight';
+ font-size:24px;
+ text-align:center;
+ }
+ .main_1 h2{
+ font-family: 'open_sansextrabold_italic';
+ font-size:24px;
+ text-align:center;
+ }
+ /*
+	font-family: 'open_sansregular';
+	font-family: 'open_sanslight';
+	font-family: 'open_sansbold';
+	font-family: 'open_sanssemibold';
+	font-family: 'open_sansextrabold';
+	font-family: 'open_sansextrabold_italic';
+	font-family: 'open_sansbold_italic';
+	font-family: 'open_sanssemibold_italic';
+	font-family: 'open_sansitalic';
+	font-family: 'open_sanslight_italic';
+	*/
+	.main_2{
+	padding:100px 0;
+	}
+	
+	.menu_1{
+		width:200px; 
+		background-color:#800080;
+		color:#FF00FF;
+		text-align:center;
+		line-height:50px;
+		height:50px;
+		display:block;
+		text-decoration:none;
+		margin:0 auto;
+		transition:0.3s;
+		cursor:pointer;
+				}
+	.menu_1:hover{
+		background:#000080;
+		color:#00FF00;
+		}
+	
+	.link:link{
+     color: #800080;
+	 text-align: center;
+    display: block;
+    padding-top: 20px;
+    text-decoration: none;
+	line-height:50px;
+	height:50px;
+		}
+	a:visited{
+		background-color:#4AA7D1;
+		color:#F40C0F;
+		}
+	a:active{
+		color:#008000;
+		background:#800080;
+		}
+	a.active{
+		color:#008000;
+		background:#800080;
+		}
+a:focus{
+	border:solid 2px #0FEFBF;
+	}
+
+</style>
+<body>
+<div class="main">
+  <h1>Home Work 8</h1>
+  </div>
+ <div class="main_1">
+   <h2>Form Home Work 8</h2>
+   <center>
+  <form id="my-form"class="my-form"action="contact.php"method="post">
+<input type="text"name="name2"id="name2"placeholder="Name" maxlength=40 required="required"/>
+<input type="tel"name="tel2"id="tel2"placeholder="TEl"/>
+<input type="email"name="email2"id="email2"placeholder="E-mail"/>
+<input type="textarea"name="textarea"id="textarea"placeholder="Comments"/>
+</form>
+</center>
+</div>
+
+<div class="main_2">
+<a href="/" class="menu_1">Menu</a>
+<a href="/" class="link">Link</a>
+
+<ul class="menu">
+    <li ><a  href="">Главная</a></li>
+    <li ><a  href="">О нас</a></li>
+    <li ><a  href="">Контакты</a></li>
+</ul>
+</div>
+  </body>
+ </html>

@@ -6,6 +6,35 @@
 <title>syntax</title>
 </head>
 <style>
+.block{
+ width:400px;
+ height:400px;
+ }
+  .background_images{
+ background-image: url(img2/cofe.jpg);
+ background-repeat:no-repeat;
+ background-size:cover;
+ height:400px;
+ }
+ .background_images h2{
+ text-align: center;
+	color:#000000;
+	}
+	
+ .background_color{
+ background-color:#FFFF00;
+ }
+ .background_color p{
+ font-size:30px;
+ text-align: center;
+ text-align: justify;
+	color:#000000;
+ }
+ .background_color h1{
+ font-size:30px;
+ text-align: center;
+	color:#000000;
+ }
 *{
 	padding:0;
 	margin:0;
@@ -46,7 +75,7 @@ body{
 
 #main_block .main_block_box_3 p{
 	font-size:20px;
-	color:	#000080;
+	color:	#800080;
 	text-align:right;
 	text-decoration:line-through
 	}
@@ -73,11 +102,14 @@ body{
 
 </style>
 <body>
-
-  <div id="main_block">
-  
+<div class="block background_images">
+		<h2>Background_images</h2>
+		</div>
+  <div class="block background_color">
   		<h1>Lorem ipsum dolar</h1>
         <p>Lorem ipsum dolar Lorem ipsum dolar Lorem ipsum dolar Lorem ipsum dolar Lorem ipsum dolar Lorem ipsum dolar Lorem ipsum dolar Lorem ipsum dolar</p>
+		</div>
+		<div id="main_block">
        <!-- box block main-->
         <div class="main_block_box_1">
                <p>Lorem ipsum dolar Lorem ipsum dolar Lorem ipsum dolar Lorem ipsum dolar Lorem ipsum dolar Lorem ipsum dolar Lorem ipsum dolar Lorem ipsum dolar</p>
@@ -111,28 +143,8 @@ body{
                   <li>Lorem3</li>
                   <li>Lorem4</li>
                </ul>
-        </div>
-        <!-- box block main-->
-        
-        
-          <!-- box block main-->
-          <style>
-		  #block_box p{
-			  color:#F60004;
-			  }
-          </style>
-        <div id="block_box">
-               <p>Lorem ipsum dolar Lorem ipsum dolar Lorem ipsum dolar Lorem ipsum dolar Lorem ipsum dolar Lorem ipsum dolar Lorem ipsum dolar Lorem ipsum dolar</p>
-               <ul class="menu_list">
-                  <li>Lorem1</li>
-                  <li>Lorem2</li>
-                  <li>Lorem3</li>
-                  <li>Lorem4</li>
-               </ul>
-               <div class="box">
-               <p>Lorem ipsum dolar Lorem ipsum dolar Lorem ipsum dolar Lorem ipsum dolar Lorem ipsum dolar Lorem ipsum dolar Lorem ipsum dolar Lorem ipsum dolar</p>
-               <p class="paragraf">Lorem ipsum dolar Lorem ipsum dolar Lorem ipsum dolar Lorem ipsum dolar Lorem ipsum dolar Lorem ipsum dolar Lorem ipsum dolar Lorem ipsum dolar</p>
-               </div>
+     
+      
         </div>
         <!-- box block main-->
           
