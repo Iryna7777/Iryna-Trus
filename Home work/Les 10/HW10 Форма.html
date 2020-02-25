@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <style>
+  .box{
+	/*display:none;*/
+	position:fixed;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	z-index:999;
+	background:rgba(0, 0, 0, 0.6);
+}
+ .box_1{
+ z-index:9999;
+ background:#C0C0C0;
+ position:absolute;
+ left:50%;
+ margin-left:-131px;
+ top:50%;
+ margin-top:-164px;
+ max-width:262px;
+ width:100%;
+ height:328px;
+ border-radius:8px;
+}
+.box_1 h1{
+font-size:20px;
+color:#FF0000;
+text-align:center;
+margin-top:26px;
+margin-bottom:16px;
+text-transform:uppercase;
+}
+.box_2{
+z-index:999999;
+/*background: url(img/dog.jpg)no repeat;*/
+width:30px;
+height:30px;
+position:absolute;
+right:-14px;
+top:-15px;
+cursor:pointer;
+}
+#commentform{
+width:200px;
+padding:25px;
+}
+input {
+font-size:15px;
+color:#000000;
+border:none;
+border-radius:5px;
+width:100%;
+padding:8px 0px 8px 15px;
+outline:none;
+margin-bottom:15px;
+}
+ textarea {
+font-size:15px;
+color:#000000;
+border:none;
+border-radius:5px;
+width:100%;
+padding:8px 0px 8px 15px;
+outline:none;
+resize:none;
+margin-bottom:15px;
+}
+ button{
+font-size:15px;
+color:#FFFFFF;
+outline:none;
+border: none;
+width:214px;
+background:#FF0000;
+border-radius:5px;
+margin-top:5px;
+padding-top:10px;
+cursor:pointer;
+}
+button:hover{
+		background:#FFFF00;
+		color:#FF0000;
+		}
+  </style>
+ </head>
+ <body>
+   <div class="box">
+	<div class="box_1">
+	<h1>КУПИТЬ НОУТБУК</h1>
+	<span class="box_2"></span>
+<form name="commentform" id="commentform">
+<div><input type="text" name="name2" id="name2"placeholder="ИМЯ"/>
+</div>
+<div><input type="email" name="email2" id="email2" placeholder="E-MAIL"/>
+</div>
+<div><textarea type="textarea" name="textarea" id="textarea" placeholder="КОММЕНТАРИИ"/>
+</textarea></div>
+<div><button id="button">ОТПРАВИТЬ</button></div>
+</form>
+</div>
+</div>
+ </body>
+</html>

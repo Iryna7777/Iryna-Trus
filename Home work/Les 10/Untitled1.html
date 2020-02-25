@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+ </head>
+<style>
+*{
+padding:0;
+margin:0;
+}
+body.html{
+height:100%;
+padding:0;
+margin:0;
+}
+.for_page{
+position:relative;
+min-height:100%;
+}
+.page{
+/*margin:0 auto;
+margin-top:-20px;*/
+padding-bottom:110px;
+}
+.box{
+width:1170px;
+margin:0 auto;
+}
+.paw{
+max-width:100px;
+width:100%;
+display:inline-block;
+}
+.paw img{
+width:auto;
+max-width:100%;
+height:auto;
+}
+.text_header{
+display:inline-block;
+vertical-align:top;
+font-size:40px;
+color:#008080;
+font-weight:bold;
+font-style:italic;
+padding-top:20px;
+padding-right:20px;
+}
+.tel_header{
+display:inline-block;
+vertical-align:top;
+text-decoration:none;
+font-style:italic;
+transition:0.3s;
+font-size:20px;
+font-size:40px;
+color:#008080;
+padding-top:20px;
+
+}
+.tel_header:hover{
+color:#0000FF;
+}
+.header{
+padding-top:15px;
+}
+.box_header{
+width:35%;
+text-align:center;
+}
+.nav-menu{
+background:#00FFFF;
+/*padding:20px;*/
+}
+ul.main-menu>li.list{
+list-style:none;
+display:inline-block;
+padding:20px 20px;
+transition:0.3s;
+}
+
+ul.main-menu>li.list>a{
+text-decoration:none;
+color:#000000;
+font-size:16px;
+/*transition:0.3s;*/
+}
+ul.main-menu>li.active,
+ul.main-menu>li.list:hover{
+background:	#008080;
+}
+ul.main-menu>li.list:nth-child(3){
+position:relative;
+}
+ul.food-menu {
+position:absolute;
+width:160px;
+background:#00FFFF;
+/*padding:20px;*/
+top:57px;
+display:none;
+z-index:9;
+}
+ul.set-menu>li.list,
+ul.food-menu>li.list {
+list-style:none;
+padding:10px 0px;
+transition:0.3s;
+color:#800080;
+font-size:16px;
+}
+ul.set-menu>li.list>a,
+ul.food-menu>li.list>a{
+text-decoration:none;
+color:#000000;
+font-size:16px;
+}
+ul.set-menu>li.list:hover,
+ul.food-menu>li.list:hover{
+background:	#008080;
+}
+ul.set-menu{
+position:absolute;
+left:160px;
+top:1px;
+width:150px;
+background:#00FFFF;
+/*padding-top:20px;*/
+top:0px;
+display:none;
+}
+ul.main-menu>li.list:hover:nth-child(3) ul.food-menu{
+display:block;
+}
+ul.food-menu>li.list:hover:first-child ul.set-menu{
+display:block;
+}
+.content{
+background:url(img/dogs.jpg)no-repeat;
+background-size:cover;
+width:100%;
+padding:280px 0;
+background-position:top center;
+}
+.content h1{
+font-size:30px;
+color:#0000FF;
+font-weight:bold;
+padding-top:10px;
+}
+.content p{
+font-size:30px;
+color:#0000FF;
+font-weight:bold;
+padding-top:10px;
+}
+.block.container{
+width:100%;
+background:	#FFFF00;
+height:700px;
+}
+.footer{
+width:100%;
+background:#00FF00;
+color:#000000;
+padding-top:15px;
+position:absolute;
+left:0;
+bottom:0;
+}
+</style>
+
+
+ 
+ 
+ <body>
+<!--Header--!>
+  <header class="header">
+<div class="box">
+  <a href="/" class="paw box_header"><img src="img/paw.png" alt="Paw"/></a>
+  <div class="text_header box_header">Мой новый корм</div>
+  <a class="tel_header box_header" href="tel:+380976278604">(097)6278604</a>
+  </div>
+
+  <nav class="nav-menu">
+	<div class="box">
+	<ul class="main-menu">
+		<li class="list active"><a href="#">Home</a></li>
+		<li class="list"><a href="#">About us</a></li>
+		<li class="list">
+		<a href="#">Products List</a>
+			<ul class="food-menu">
+			<li class="list">
+			<a href="#">Food 1</a>
+				<ul class="set-menu">
+				<li class="list"><a href="#">Set 1</a></li>
+				<li class="list"><a href="#">Set 2</a></li>
+				<li class="list"><a href="#">Set 3</a></li>
+				</ul>
+				</li>
+			<li class="list"><a href="#">Food 2</a></li>
+			<li class="list"><a href="#">Food 3</a></li>
+			<li class="list"><a href="#">Food 4</a></li>
+			</ul>
+			</li>
+		<li class="list"><a href="#">Contact us</a></li>
+	</ul>
+	</div>
+  </nav>
+  </header>
+  <!--Header--!>
+  <!--main--!>
+<div class="for_page">
+  <main class="page">
+		<section class="content">
+		<div class="container">
+		<h1>Мы знаем где вкуснее!</h1>
+		<p>Приходите!</p>
+		</div>
+		</section>
+		
+		<section class="block">
+		<div class="container">
+		</div>
+		</section>
+  </main>
+  <footer class="footer">
+	<div class="container">
+		 <a href="/" class="paw box_header"><img src="img/paw.png" alt="Paw"/></a>
+  <div class="text_header box_header">Звоните:</div>
+  <a class="tel_header box_header" href="tel:+380976278604">(097)6278604</a>
+  </div>
+  </footer>
+  </div>
+   <!--main--!>
+ </body>
+</html>
