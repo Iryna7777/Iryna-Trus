@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Les 11</title>
+</head>
+<style>
+*{
+	padding:0;
+	margin:0;
+	} 
+
+.box{
+	width:200px;
+	height:200px;
+	margin:0 auto;
+	margin-bottom:50px;
+	margin-top:50px;
+	}
+		.z-index{
+			position:relative;
+			}
+.z-index_one{
+	background:#1E90FF;
+	position:absolute;
+	width:200px;
+	height:200px;
+	z-index:1;
+	left:0px;
+	}
+	.z-index_two{
+	background:#00FFFF;
+	position:absolute;
+	width:200px;
+	height:200px;
+	z-index:2;
+	left: 30px;
+    top: 30px;
+	}
+		.z-index_three{
+	background:#228B22;
+	position:absolute;
+	width:200px;
+	height:200px;
+	z-index:3;
+	left: 60px;
+     top: 60px;
+	}
+.triangle{
+height:0;
+width:0;
+position:absolute;
+margin-top:400px;
+margin-left:50px;
+background-color:transparent;
+border-left:150px solid transparent;
+border-right: 150px solid transparent;
+border-bottom: 180px solid #FF0000;
+}
+	.radial{
+		background:radial-gradient(ellipse at center, #FFD700 20%, 	#FFD700 40%, #DEB887 60%, #FFD700 60%);
+		}
+		.linear{
+	background: linear-gradient(to bottom, #00FA9A 10%, #32CD32 90%);
+	}
+	.linear_deg{
+		background:linear-gradient(69deg, #FF1493 10%, #00BFFF 10%, #696969 30%, #1E90FF 50%, #B22222 70%, 	#FF00FF 80%);
+		}
+</style>
+ <body>
+  <div class="z-index">
+            <div class="z-index_one"></div>
+            <div class="z-index_two"></div>
+            <div class="z-index_three"></div>
+         </div>
+  <div class="triangle"></div>
+  <div class="box radial"></div>
+  <div class="box linear"></div>
+  <div class="box linear_deg"></div>
+ </body>
+</html>
