@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>HW14</title>
+  <style>
+  audio{
+  padding:70px 120px;
+  padding-bottom:3px;
+  }
+
+.main_box{
+	padding:100px 0;
+	width:1000px;
+	margin:0 auto;
+	}
+.box{
+	width:300px;
+	padding:70px 100px;
+	box-sizing:border-box;
+	color:#fff;
+	min-height:200px;
+	background:#FF00FF;
+	float:left;
+	margin-right:10px;
+	}
+.box:first-letter{
+	color:blue;
+	font-size:60px;
+	text-shadow: 5px 5px 0px #eee, 7px 7px 0px #707070;
+	color:#707070;
+
+	}
+.box:first-line{
+	font-style:italic;
+	color:#000;
+	font-weight:bold;
+	}
+
+
+	
+ul{
+	clear:both;
+	padding:70px 120px;
+	color:	#00FFFF;
+	}
+ul li{
+	list-style:none;
+	position:relative;
+	    padding-left: 65px;
+	}
+ul li:before{
+	content:"*";
+	position:absolute;
+	    left: 0;
+	    padding-left: 50px;
+		color:#EBF113;
+		font-weight:bold;
+	}
+</style>
+ </head>
+ <body>
+   
+      			 <video id="video" width="100%" height="400" autoplay loop muted preload="auto" >
+                   		 <source src="video/cat(1).mp4" type="video/mp4" /> 
+                        <source src="video/cat(1).webm" type="video/webm" />
+                        <source src="video/cat(1).ogv" type="video/ogv" />
+                   </video>
+				   <div class="audio">
+                    <audio controls autoplay loop>
+                   				<source src="video/music.mp3" type="audio/mpeg" />
+                               <source src="video/music.mp3" type="audio/ogg" />
+                   </audio>
+				   </div>
+               <div class="main_box">
+		<div class="box">CAT  </div>
+      <div class="box">CAT </div>
+     </div>
+
+<ul>
+  <li>CAT and DOG</li>
+  <li>CAT and DOG</li>
+  <li>CAT and DOG</li>
+  <li>CAT and DOG</li>
+  <li>CAT and DOG</li>
+  <li>CAT and DOG</li>
+</ul>  
+ </body>
+</html>
