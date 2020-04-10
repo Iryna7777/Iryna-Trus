@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <style>
+html{
+height:100%;
+}
+body{
+width:100%;
+background:url(img3/space.jpg);
+background-size:cover;
+padding:60px 0;
+background-position:top center;
+}
+.sun{
+ height:140px;
+ width:140px;
+ border-radius:50%;
+ background-color:yellow;
+ margin:0 auto;
+ margin-top:80px;
+ position:relative;
+ z-index: 2;
+ cursor: pointer;
+ transition: all 500ms ease-out;
+ }
+ .orbit{
+ height: 465px;
+ width: 465px;
+ border-radius: 50%;
+ border:3px solid white;
+ margin-left:420px;
+ position:absolute;
+ top:35px;
+ left:35px;
+ animation:animateCircle 6s linear infinite;
+}
+.mars{
+ height:80px;
+ width:80px;
+ border-radius:50%;
+ background-color:red;
+ margin-top:20px;
+ margin-left:355px;
+ top:35px;
+ left:35px;
+ position:relative;
+ cursor: pointer;
+ transition: 500ms ease-out;
+ animation: spinning 6s linear infinite inherit;
+}
+
+
+
+@keyframes spinning {
+ 	0% {
+		transform: rotate(45deg);
+	}
+
+	100% {
+		transform: rotate(405deg);
+	}
+}
+
+@keyframes animateCircle {
+ 	0% {
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}
+ .mars:hover {
+transform:scale(1.2);
+}
+.orbit:hover{
+animation-play-state: paused;
+}
+
+.sun:hover{
+ transform:scale(1.2);
+}
+
+</style>
+ <body>
+ <div class="sun">
+</div>
+  <div class="orbit">
+  <div class="mars"></div>
+  </div>
+<div class="orbit2">
+  </div>
+ </body>
+</html>
